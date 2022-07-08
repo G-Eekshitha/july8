@@ -1,0 +1,18 @@
+n=input()
+a=''
+for i in n:
+    if i.isdigit():
+      a=a+i
+dup=''      
+for i in a:
+ if(i in dup):
+    pass
+ else:
+    dup=dup+i
+print(dup)        
+
+output
+a2fd2g3
+23
+ad32jhg235
+325
