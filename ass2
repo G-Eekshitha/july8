@@ -1,0 +1,22 @@
+n=input()
+a=''
+for i in n:
+    if i.isdigit():
+        pass
+    else:
+        a=a+i
+dup=''      
+for i in a:
+ if i in dup:
+    pass
+ else:
+    dup=dup+i
+print(dup)        
+ 
+ 
+ 
+output       
+a2fd2g3sa
+afdgs
+aditya123degree
+adityegr
